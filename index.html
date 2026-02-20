@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>GoldenSync — Snapshot-basierte CRM-Datenanalyse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: #111;
+            background-color: #ffffff;
+        }
+
+        .hero {
+            padding: 120px 0;
+        }
+
+        .section {
+            padding: 80px 0;
+        }
+
+        .muted {
+            color: #666;
+        }
+
+        .btn-gold {
+            background-color: #c99700;
+            border: none;
+            color: white;
+        }
+
+        .btn-gold:hover {
+            background-color: #b68600;
+        }
+
+        footer {
+            padding: 40px 0;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero text-center">
+    <div class="container">
+        <h1 class="display-5 fw-semibold mb-4">
+            Wie zuverlässig sind Ihre CRM-Daten – jetzt gerade?
+        </h1>
+        <p class="lead muted mb-5">
+            GoldenSync erstellt eine einmalige, nachvollziehbare Dublettenanalyse
+            auf Basis Ihres Datenexports. Kein Monitoring. Keine Integration.
+            Kein laufender Betrieb.
+        </p>
+        <p class="lead muted mb-5"> 
+            GoldenSync befindet sich derzeit in einer kontrollierten Pilotphase.  
+            Analysen werden aktuell nur für ausgewählte Organisationen durchgeführt.
+        </p>
+        <a href="mailto:contact@goldensync.io" class="btn btn-gold btn-lg">
+            Analyse anfragen (Pilotprogramm)
+        </a>
+        <p class="muted mt-3">
+            Unverbindliche Anfrage · Keine laufende Verpflichtung
+        </p>
+
+        <!-- <a href="#upload" class="btn btn-gold btn-lg">
+            Snapshot-Analyse starten
+        </a> -->
+    </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="section bg-light text-center">
+    <div class="container">
+        <h2 class="mb-4">Datenqualität verschlechtert sich schleichend.</h2>
+        <p class="muted">
+            Dubletten verzerren Kennzahlen.  
+            Migrationen vervielfachen Inkonsistenzen.  
+            Governance-Diskussionen fehlen belastbare Evidenz.
+        </p>
+    </div>
+</section>
+
+<!-- SOLUTION -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="mb-4">Was GoldenSync liefert</h2>
+                <ul class="list-unstyled muted">
+                    <li>• Dubletten-Wahrscheinlichkeiten je Datensatzpaar</li>
+                    <li>• Attributbasierte Entscheidungsbegründung</li>
+                    <li>• Aggregierte Feldzuverlässigkeit</li>
+                    <li>• Governance-kompatible Metadaten</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 muted">
+                Die Analyse erfolgt batch-basiert auf einem CSV-Export.  
+                Sie erhalten strukturierte CSV- und PDF-Artefakte.  
+                Es erfolgt keine Rückschreibung in Quellsysteme.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WHAT IT IS / IS NOT -->
+<section class="section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Was dies ist</h4>
+                <ul class="muted">
+                    <li>Ein einmaliges Analyseartefakt</li>
+                    <li>Erklärbare ML-gestützte Bewertung</li>
+                    <li>Audit-fähige Dokumentation</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Was dies nicht ist</h4>
+                <ul class="muted">
+                    <li>Kein CRM-Plugin</li>
+                    <li>Kein kontinuierliches Monitoring</li>
+                    <li>Kein automatisches Zusammenführen</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- UPLOAD -->
+<!-- <section class="section" id="upload">
+    <div class="container text-center">
+        <h2 class="mb-4">CSV-Export hochladen</h2>
+        <form action="/uploadCSV" method="post" enctype="multipart/form-data" class="row g-3 justify-content-center">
+            <div class="col-md-4">
+                <input type="email" name="email" class="form-control" placeholder="Ihre E-Mail-Adresse" required>
+            </div>
+            <div class="col-md-4">
+                <input type="file" name="file" class="form-control" accept=".csv" required>
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-gold w-100">Upload</button>
+            </div>
+        </form>
+        <p class="muted mt-3">
+            Mit dem Upload bestätigen Sie, dass Sie zur Verarbeitung der Daten berechtigt sind.
+        </p>
+    </div>
+</section> -->
+
+<footer class="text-center border-top">
+    <div class="container">
+        © 2026 goldensync.io – Snapshot-basierte Dublettenanalyse
+    </div>
+</footer>
+
+</body>
+</html>
